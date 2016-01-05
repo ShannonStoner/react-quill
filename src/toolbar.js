@@ -49,15 +49,19 @@ var defaultItems = [
 		{ type:'underline', label:'Underline' },
 		{ type:'separator' },
 		{ type:'color', label:'Color', items:defaultColors },
-		{ type:'background', label:'Background color', items:defaultColors },
-		{ type:'separator' },
-		{ type:'link', label:'Link' }
+		{ type:'background', label:'Background color', items:defaultColors }
 	]},
 
 	{ label:'Blocks', type:'group', items: [
 		{ type:'bullet', label:'Bullet' },
 		{ type:'separator' },
 		{ type:'list', label:'List' }
+	]},
+
+	{ label:'Image', type:'group', items: [
+		{ type:'link', label:'Link' },
+		{ type:'separator' },
+		{ type:'image', label:'Image' }
 	]}
 
 ];
